@@ -560,9 +560,11 @@ function fileDoesNotExistOrIsDirectory(filePath: string): boolean {
 
 function getTotalActiveFromDeploymentMetrics(metrics: DeploymentMetrics): number {
   let totalActive = 0;
-  Object.keys(metrics).forEach((label: string) => {
-    totalActive += metrics[label].active;
-  });
+  Object.keys(metrics)
+    .filter((metric) => metric.startsWith("v"))
+    .forEach((label: string) => {
+      totalActive += metrics[label].active;
+    });
 
   return totalActive;
 }

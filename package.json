@@ -1,8 +1,8 @@
 {
-  "name": "code-push-cli",
+  "name": "@ryuwoong/code-push-cli",
   "version": "0.0.1",
   "description": "Management CLI for the CodePush service",
-  "main": "./script/cli.js",
+  "main": ".bin/script/cli.js",
   "scripts": {
     "start": "node ./bin/script/cli.js",
     "build": "tsc",
