@@ -1,6 +1,6 @@
 {
   "name": "@ryuwoong/code-push-cli",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "Management CLI for the CodePush service",
   "main": ".bin/script/cli.js",
   "scripts": {
@@ -15,9 +15,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/microsoft/code-push-server"
+    "url": "https://github.com/RyuWoong/codepush-standalone-cli"
   },
-  "author": "Microsoft",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
+  "author": "RyuWoong",
   "dependencies": {
     "backslash": "^0.2.0",
     "chalk": "^4.1.2",
