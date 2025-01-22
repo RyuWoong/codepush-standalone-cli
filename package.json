@@ -17,9 +17,6 @@
     "type": "git",
     "url": "https://github.com/RyuWoong/codepush-standalone-cli"
   },
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com"
-  },
   "author": "RyuWoong",
   "dependencies": {
     "backslash": "^0.2.0",

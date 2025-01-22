@@ -1,3 +1,10 @@
+> ⚠️ Warning:
+> This is a forked repository. It is intended for personal use, but feel free to install and use it if needed by running
+
+```bash
+npm install -g @ryuwoong/code-push-cli
+```
+
 # CodePush CLI
 
 The CodePush CLI is a Node.js application that allows users to interact with CodePush Server.
