@@ -5,6 +5,13 @@
 npm install -g @ryuwoong/code-push-cli
 ```
 
+# What has Changed?
+
+I discovered an issue where the CodePush install metrics were being calculated incorrectly. Previously, even if Active was 100 out of 100, it was still displayed as 0%. In the current repository, I have fixed this calculation. 
+
+For some reason, a function marked as “Deprecated” in the comments seems to be working, which affects the totalActive calculation. Therefore, I have modified the totalActive calculation formula.
+
+
 # CodePush CLI
 
 The CodePush CLI is a Node.js application that allows users to interact with CodePush Server.
